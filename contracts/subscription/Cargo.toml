@@ -1,0 +1,21 @@
+[package]
+name = "soroban-subscription-contract"
+version = "1.0.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+soroban-sdk = { version = "20.0.0" }
+
+[dev-dependencies]
+soroban-sdk = { version = "20.0.0", features = ["testutils"] }
+proptest = { version = "1.4", default-features = false, features = ["alloc"] }
+proptest-derive = "0.4"
+
+[profile.release]
+opt-level = "z"
+overflow-checks = true
+lto = true
+codegen-units = 1
