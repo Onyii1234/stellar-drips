@@ -24,3 +24,5 @@ Thumbs.db
 # Stellar CLI
 .stellar/
 identity.json
+# Temporary scripts
+*.ps1
