@@ -1,8 +1,8 @@
-# SorobanPay — Wave Program Contribution Plan
+# Stellar Drips — Wave Program Contribution Plan
 
 ## Project Overview
 
-SorobanPay is a non-custodial recurring payments protocol built on Stellar's Soroban smart contract platform. It enables subscription billing, creator monetization, and recurring donations directly on-chain — without custodial wallets or complex pre-authorized transaction arrays.
+Stellar Drips is a non-custodial recurring payments protocol built on Stellar's Soroban smart contract platform. It enables subscription billing, creator monetization, and recurring donations directly on-chain — without custodial wallets or complex pre-authorized transaction arrays.
 
 The protocol consists of a Rust/Soroban smart contract, a Next.js 14 frontend with Freighter wallet integration, and automated build/deployment tooling.
 
